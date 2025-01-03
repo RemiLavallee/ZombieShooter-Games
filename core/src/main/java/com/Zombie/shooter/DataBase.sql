@@ -1,0 +1,9 @@
+CREATE DATABASE zombie;
+
+USE zombie;
+
+CREATE TABLE userscores(
+id INT PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(255) NOT NULL,
+score INT(255) NOT NULL
+);
