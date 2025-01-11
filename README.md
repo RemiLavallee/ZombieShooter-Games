@@ -1,51 +1,41 @@
-# ZombieShooter
+<h1 align="center">Zombie Shooter</h1>
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white" alt="Java Badge"/>
+  <img src="https://img.shields.io/badge/LibGDX-black?style=flat&logo=libgdx&logoColor=red" alt="LibGDX Badge"/>
+  <img src="https://img.shields.io/badge/Pair%20Programming-blue?style=flat&logo=git&logoColor=white" alt="Pair Programming Badge"/>
+</div>
 
-This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
+<h2 align="center">Notes : 98%</h2>
 
-## Platforms
+<h2 align="center">Description</h2>
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+<p align="center">
+Le joueur doit survivre le plus longtemps possibles durant les vagues d’ennemi. À la fin de la partie, le joueur peut entrer son score et l’enregistrer dans la base de données.
+</p>
 
-## Gradle
+<h2 align="center">Éléments techniques du projet</h2>
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+<div align="center">
+<li><img src="https://img.shields.io/badge/LibGDX-orange?style=flat&labelColor=orange&color=orange" alt="LibGDX Badge"/> Introduction à LibGDX et utilisation du framework pour le développement du jeu.</li>
+<li><img src="https://img.shields.io/badge/Base_de_Données-blue?style=flat&labelColor=blue&color=blue" alt="Base de Données Badge"/> Implémentation d’une base de données connectée au jeu pour stocker les informations des joueurs et les progressions.</li>
+<li><img src="https://img.shields.io/badge/Cycle_de_Vie_de_LibGDX-green?style=flat&labelColor=green&color=green" alt="Cycle de Vie LibGDX Badge"/> Compréhension et gestion du cycle de vie de LibGDX pour optimiser le comportement de l’application.</li>
+</div>
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+<h2 align="center">Contrôles</h2>
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+<div align="center">
+  
+| **Action**             | **Touche**           |
+|------------------------|----------------------|
+| **Move**               | W / A / S / D        |
+| **Fire**               | Left Click           |
+| **Paused**             | Escape               |
 
+</div>
 
-GAME DESIGN doc
+<h2 align="center">Crédits</h2>
 
-Left / Right DESIGN
-personnage au milieu, défend la base
-zombies arrivent de la gauche et de la droite
-visée 360
-
-base = Tour, une au début, peut etre plusieurs dans les levels plus tard
-tour prends dmg avant player. quand tour petée, player au sol
-zombies droppent powerup des fois
-Power ups?
-Heal
-Multi bullet
-Rapid Fire
-
-Score = 1 pt par zombies
+<div align="center">
+<li>Assets : https://fkgcluster.itch.io/survivaltowerdefense.
+</div>
